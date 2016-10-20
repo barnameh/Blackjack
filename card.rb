@@ -6,7 +6,6 @@ class Card
   def initialize(suit, face)
     @suit = suit
     @face = face
-    @face_value = 55
     @face_value = value(face)
   end
 
